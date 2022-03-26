@@ -1,0 +1,7 @@
+Git gera um hash para cada arquivo novo ou modificado - Hash é um sequencia de 40 caractere. 
+(Encriptado) -  openssl sha1 texto.txt (Mostra o hash gerado)
+	
+Objetos 
+	Blobs (Bolhas) - O git armazena um objeto do tipo blob que o mesmo contem > Sha1, Tipo do objeto, tamanho, \0 e Conteudo
+	Trees (Arvores) - A arvore armazena (Aponta) um blob que por sua vez contem > Blob, Tamanho, sha1, nome do arquivo e \0
+ 	Commits
